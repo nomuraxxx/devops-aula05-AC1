@@ -1,5 +1,6 @@
 language: python
 python:
-- "3.6.7"
+      - "3.6.7"
   script:
-- python src/testes.py
+      - cd src; python testes.py
+
